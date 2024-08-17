@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog By Danny</title>
+<link rel="icon" type="image/x-icon" href="icon.png">
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/0ca27f8db1.js" crossorigin="anonymous"></script>
+<style>
+    body{
+    background-color: #32c4f9;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #fe7362;
+  
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #f3ce73;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #fe7362;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #32c4f9;
+  color: #fe7362;
+}
+
+.active {
+    background-color: #2decb7;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #32c4f9;
+  padding-left: 20px;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: #fe7362;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+div.card:hover {
+  border: 4px solid #f3ce73;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #f3ce73;
+  margin-top: 20px;
+}
+.vertical-menu {
+  width: 100%;
+}
+
+.vertical-menu a {
+  background-color: #f3ce73;
+  color: #fe7362;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #32c4f9;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="topnav">
+    <a  href="https://madebydanny.uk/index.html"><i class="fa-solid fa-arrow-left"></i> madebydanny.uk</a>
+    <a  href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href=""><i class="fa fa-fw fa-users"></i>About Me</a>
+    <a href="info.html"><i class="fa fa-fw fa-info"></i>Site Info</a>
+    <a href="new.html" style="float: right;"><i class="fa fa-fw fa-info"></i> V.17</a>
+   
+
+    </a>
+    </div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:1000px;">Image</div>
+      <p>Some text..</p>
+      <p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+        <div class="vertical-menu">
+            <a href=" "><i class="fa fa-fw fa-youtube"></i> YouTube</a>
+            <a href="" ><i class="fa-brands fa-fw fa-discord"></i> Discord</a>
+            <a href="" ><i class="fa-brands fa-fw fa-wix"></i> Wix Spaces</a>
+            <a href="" ><i class="fa-brands fa-fw fa-twitch"></i> Twitch</a>
+            <a href="" ><i class="fa-brands fa-fw fa-spotify"></i> Spotify</a>
+            <a href="" ><i class="fa-solid fa-globe"></i> Spotify</a>
+        </div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
