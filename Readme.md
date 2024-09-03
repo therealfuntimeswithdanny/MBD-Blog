@@ -8,9 +8,9 @@ madebydanny.uk/blog.html will have the home page design of MBD-BLOG but all link
 #3 Search Page
 
 # Plans
-[ ] Make Blogs Dowloadable
-[ ] Open in new tap {word}
-[ ] Light and Dark Mode Toggle 
-[ ] Light and Dark Mode Toggle For Blog Post
-[ ] Add post page
-[ ] Add video's on blog
+[] Make Blogs Dowloadable<br>
+[] Open in new tap {word}<br>
+[] Light and Dark Mode Toggle <br>
+[] Light and Dark Mode Toggle For Blog Post<br>
+[] Add post page<br>
+[] Add video's on blog
