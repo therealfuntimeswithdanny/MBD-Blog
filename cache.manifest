@@ -1,0 +1,17 @@
+CACHE MANIFEST
+CACHE:
+#HTML pages
+index.html
+search.html
+#CSS Style pages
+/Style {css}/index.CSS
+/Style {css}/search.CSS
+/Style {css}/offline.css
+#Javascript JS pages
+/Script {js}/index.js
+
+FALLBACK:
+offline.html
+
+NETWROK
+*
