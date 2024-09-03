@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="/Style {CSS}/search.css">
 <body>
+  <div class="topnav">
+    <a href="https://madebydanny.uk"><i class="fa-solid fa-arrow-left"></i>madebydanny.uk</a>
+    <a href="info.html"><i class="fa fa-fw fa-info"></i>V 1.1 (Beta)</a>
+    <a class=active href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="info.html"><i class="fa fa-fw fa-info"></i>Info</a>
+    <a href="about.html"><i class="fa fa-fw fa-users"></i>About Me</a>
+    <a href="post.html"><i class="fa fa-fw fa-newspaper"></i>All post</a>
+    <a href="search.html" style="float:right"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
+  </div>
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search madebydanny.uk">
 <ul id="myUL">
   <h5>Search Powerd BY Javascript</h5>
   <p>Javascript needs to be enabled in your browser</p>
-  <h6>Seacrch is powered by Javascript</h6>
   <li><a href="Fitbit_Charge_6.html">Fitbit Charge 6</a></li>
   <li><a href="Office_365.html">Office 365</a></li>
   <h5>More Comming Soon!</h5>
   <!-- Add more list items here -->
 </ul>
+<div id="offline-popup" class="popup">
+  <h3>You are currently offline.</h3>
+  <p>If you allowed this site to save data to your drive<br> you may view the following pages.<br></p>
+  <p> Home | About Me<br>Blog Post can't be viewed becuase they require the internet.</p>
+  <button onclick="closePopup()">Close</button>
+</div>
+<div id="online-popup" class="popup">
+  <h3>Your Back Online!</h3>
+  <p>You may now view any page.</p>
+  <button onclick="closePopup()">Close</button>
+</div>
 <script src="/Script {JS}/search.js"></script>
 </body>
