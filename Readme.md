@@ -1,7 +1,7 @@
 # MBD BLOG
 The offical Blog for madebydanny.uk 
 # Basic Info
-madebydanny.uk/blog.html will have the home page design of MBD-BLOG but all links redirect to blog.madebydanny.uk
+madebydanny.uk/blog.html will have the home page design of MBD-Blog but all links redirect to blog.madebydanny.uk
 # What's new
 #1 Offline Mode<br>
 #2 Faster loading times<br>
@@ -14,4 +14,5 @@ madebydanny.uk/blog.html will have the home page design of MBD-BLOG but all link
 [] Light and Dark Mode Toggle For Blog Post<br>
 [] Add post page<br>
 [] Add video's on blog<br>
-[] Add Scroll Indicator
+[] Add Scroll Indicator<br>
+[] Add video's on blog
