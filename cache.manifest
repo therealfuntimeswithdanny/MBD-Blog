@@ -4,11 +4,9 @@ CACHE:
 index.html
 search.html
 #CSS Style pages
-/Style {css}/index.CSS
-/Style {css}/search.CSS
-/Style {css}/offline.css
-#Javascript JS pages
-/Script {js}/index.js
+/CSS/index.CSS
+/CSS/search.CSS
+/CSS/offline.css
 
 FALLBACK:
 offline.html
