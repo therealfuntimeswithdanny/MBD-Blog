@@ -13,6 +13,4 @@ madebydanny.uk/blog.html will have the home page design of MBD-Blog but all link
 - [x] Light and Dark Mode Toggle <br>
 - [x] Light and Dark Mode Toggle For Blog Post<br>
 - [ ] Add post page<br>
-- [ ] Add video's on blog<br>
-- [ ] Add Scroll Indicator<br>
 - [ ] Add video's on blog
