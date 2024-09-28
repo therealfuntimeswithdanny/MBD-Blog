@@ -1,123 +1,113 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="/Style {css}/index.css">
-<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<script src="https://kit.fontawesome.com/0ca27f8db1.js" crossorigin="anonymous"></script>
-<link rel="icon" type="image/x-icon" href="https://mbd-blog-cdn.madebydanny.uk/icon.png">
-<html>
+<html lang="en">
 <head>
-<style>
-
-</style>
+<title>Danny's Blog</title>
+<script src="https://kit.fontawesome.com/0ca27f8db1.js" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<link rel="icon" type="image/x-icon" href="https://mbd-blog-cdn.madebydanny.uk/icon.png">
+<link rel="stylesheet" href="/Style/index.css">
+<script src="/Javascript/index.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
 <div class="header">
   <h1>Danny's Blog</h1>
-  <p>blog.madebydanny.uk</p>
+  <p>A small website <b>Made By Danny</b></p>
 </div>
 
-<div class="topnav">
+<div class="navbar">
+  <a href="https://madebydanny.uk"><i class="fa-solid fa-arrow-left"></i>MBD</a>
+  <a class="active" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+  <a href="about.html"><i class="fa-solid fa-user"></i>About Me</a>
+  <a href="https://madebydanny.uk"><i class="fa-solid fa-newspaper"></i>All Post</a>
+  <a href="https://madebydanny.uk"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
   <div class="dropdown">
-    <button class="dropbtn">MBD Blog 
+    <button class="dropbtn"><i class="fa-solid fa-screwdriver-wrench"></i>Dropdown 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="https://madebydanny.uk">MBD Blog</a>
-      <a href="https://blog.madebydanny.uk">MBD Blog</a>
-      <a href="https://game.madebydanny.uk">MBD Games</a>
-    </div>
-  </div>
-  <a class="active" href="index.html">Home</a>
-  <a href="about.html">About Me</a>
-  <a href="blogs.html">All post</a>
-  <div style="float: right;" class="dropdown">
-    <button class="dropbtn">Quick Tools 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a><button id="toggle-button">Toggle Mode</button></a>
-      <a><button id="translateButton">Translate to Spanish</button></a>
-      <div id="google_translate_element" style="display:none;"></div>
-      <a href="#">More Comming Soon!</a>
+      <div id="google_translate_element"></div>
+      <a style="float: right;" ><button id="toggleButton">Toggle Light/Dark Mode</button></a>
+      <a href="info.html">Site Info</a>
     </div>
   </div> 
-  <a href="search.html" style="float:right">Search</a>
   
+
 </div>
 
 
 <div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>Fitbit Charge 6</h2>
-      <h5>Tuesday, Sep 10, 2024</h5>
-      <img src="https://www.fitbit.com/global/content/dam/fitbit/global/pdp/devices/charge-6/device-360/coral/prod0.png" alt="MBD CDN Error" style="width:450px;height:450px;">
-      <table id="customers">
-        <tr>
-          <td><a href="/blogs/fitbit_charge_6.html">
-            <img src="https://mbd-blog-cdn.madebydanny.uk/arrow-up-right-from-square-solid.svg" alt="MBD CDN Error" style="width:100%;height:45px;">
-            </a><p>Open Blog Post</p>
-          </td>
-          <td><a href="https://1drv.ms/w/s!AssUp-z25c6Pj4kXzzqn45hRsm1R9A?e=agcpBq">
-            <img src="https://mbd-blog-cdn.madebydanny.uk/file-word-solid.svg" alt="MBD CDN Error" style="width:100%;height:45px;">
-            </a><p>Open In Word</p></td>
-        </tr>
-        
-      </table>
-      <p>Quick Look</p>
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>Social Links</h3>
+    <div class="vertical-menu">
+      <a href="https://youtube.com/@MadeByDanny">Youtube</a>
+      <a href="https://twitch.tv/funtimeswithdanny">Twitch</a>
+      <a href="https://linktr.ee/funtimeswithdanny">Linktree</a>
+      <a href="#">Soundcloud</a>
+      <a href="#">Steam</a>
+      <a href="#">Discord</a>
+      <a href="#">Reddit</a>
+      <a href="#">Spotify</a>
+      <a href="#">Instagram</a>
     </div>
-    <div class="card">
-      <h2>Office 365</h2>
-      <h5>Sunday, Sep 1, 2024</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <h2>Popular Post</h2>
+    <div class="vertical-menu">
+      <a href="#">Microsoft 365</a>
+      <a href="#">Fitbit Charge 6</a>
     </div>
   </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>About Me</h2>
-      <h3>Learn More</h3>
-      <p>Text</p>
-    </div>
-    <div class="card">
-      <h3>More Post</h3>
-      <div class="vertical-menu">
-          <a href=""><i class="fa fa-fw fa-youtube"></i> Wondershare Filmora</a>
-          <a href="" ><i class="fa-brands fa-fw fa-discord"></i> Casaos</a>
-          <a href="" ><i class="fa-brands fa-fw fa-twitch"></i> Unifi Flex Mini</a>
-        </div>
-    </div>
-    <div class="card">
-      <h3>Follow Me</h3>
-      <p>Socials</p>
-        <div class="vertical-menu">
-          <a href="https://youtube.com/@MadeByDanny "><i class="fa fa-fw fa-youtube"></i> YouTube</a>
-          <a href="https://discord.gg/JZKKakyWKT" ><i class="fa-brands fa-fw fa-discord"></i> Discord</a>
-          <a href="htpps://twitch.tv/funtimeswithdanny" ><i class="fa-brands fa-fw fa-twitch"></i> Twitch</a>
-          <a href="https://open.spotify.com/user/zg6ahzluemvxppvwgflgbeheg?si=1cb184e1803348ec" ><i class="fa-brands fa-fw fa-spotify"></i> Spotify</a>
-          <a href="" ><i class="fa-brands fa-github"></i> Github</a>
-        </div>
+
+  <div class="main">
+    
+    <div class="row">
+      <div class="column">
+        <div class="fakeimg" style="height:200px; margin-right:15px;">Image</div>
+       <h2>TITLE HEADING</h2>
+       <h5>Title description, Dec 7, 2017</h5>
+       <p>Some text..</p>
+       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+       <br>
+      </div>
+      <hr>
+      <div class="column">
+        <div class="fakeimg" style="height:200px; margin-right:15px;">Image</div>
+       <h2>TITLE HEADING</h2>
+       <h5>Title description, Dec 7, 2017</h5>
+       <p>Some text..</p>
+       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+       <br>
+      </div>
+      <hr>
+      <div class="column">
+        <div class="fakeimg" style="height:200px; margin-right:15px;">Image</div>
+       <h2>TITLE HEADING</h2>
+       <h5>Title description, Dec 7, 2017</h5>
+       <p>Some text..</p>
+       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+       <br>
+      </div> 
     </div>
   </div>
-</div>
-<div id="offline-popup" class="popup">
-    <h3>You are currently offline.</h3>
-    <p>If you allowed this site to save data to your drive<br> you may view the following pages.<br></p>
-    <p> Home | About Me<br>Blog Post can't be viewed becuase they require the internet.</p>
-    <button onclick="closePopup()">Close</button>
-</div>
 
-<div id="online-popup1" class="popup1">
-  <h3>Your online now!</h3>
-  <p>You may now visit any page.</p>
-  <button onclick="closePopup1()">Close</button>
+</div>    
+<div class="row">
+  <div class="footer">
+    <h2>blog.madebydanny.uk</h2>
+    <p>Powerd By MBD CDN | Backed By Cloudflare | Hosted In Github Pages</p>
+  </div>
 </div>
-
-<div class="footer">
-  <h2>Copyright 2024 MBDUK | MBD Team | Hosted in Github Pages</h2>
-</div>
-
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+  </script>
+  
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
 </body>
 </html>
-<script src="index.js"></script>
