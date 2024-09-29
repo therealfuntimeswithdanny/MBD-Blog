@@ -245,3 +245,14 @@
   #myBtn:hover {
     background-color: #cbacf6; /* Add a dark-grey background on hover */
   }
+  #more {display: none;}
+  #myBtn2 {
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #fe7362; /* Set a background color */
+    color: white; /* Text color */
+    padding-bottom: 10px;
+  }
+  #myBtn2:hover {
+    background-color: #cbacf6; /* Add a dark-grey background on hover */
+  }

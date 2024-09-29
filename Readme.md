@@ -18,3 +18,4 @@ This Site is for my blog only
 - [x] Light and Dark Mode Toggle For Blog Post<br>
 - [ ] Add video's on blog<br>
 - [ ] Add a read more button to the "quick look" on home page
+ 
