@@ -1,17 +1,19 @@
 # MBD BLOG
 The offical Blog for madebydanny.uk 
 # Basic Info
-madebydanny.uk/blog.html will have the home page design of MBD-Blog but all links redirect to blog.madebydanny.uk
+This Site is for my blog only
+--
 # What's new
 #1 Offline Mode<br>
 #2 Faster loading times thanks to MBD CDN<br>
-#3 Search Page
-#4 Light/Dark Mode
-#5 Google Translate 
+#3 Search Page<br>
+#4 Light/Dark Mode<br>
+#5 Google Translate<br>
+#6 MBD Blog Viewer 2024 V1.0
 
 # Plans
 - [ ] Make Blogs Dowloadable<br>
-- [ ] Open in new tap {word}<br>
+- [x] Open in new tap {word}<br>
 - [x] Light and Dark Mode Toggle <br>
 - [x] Light and Dark Mode Toggle For Blog Post<br>
 - [ ] Add video's on blog<br>
