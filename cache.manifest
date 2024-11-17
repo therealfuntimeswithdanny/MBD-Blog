@@ -1,0 +1,18 @@
+CACHE MANIFEST
+CACHE:
+#GitHub API
+https://api.github.com/repos/therealfuntimeswithdanny/MBD-DEV
+#HTML pages
+404.html
+index.html
+#CSS Style pages
+/Style/404.css
+/Style/index/js
+# Javascript
+/Script/404.js
+/Script/index/js
+FALLBACK:
+/404.html
+
+NETWROK
+*

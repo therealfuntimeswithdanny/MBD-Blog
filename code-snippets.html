@@ -187,14 +187,16 @@ hr.new1 {
 </head>
 <body>
 
+<div class="header">
+  <h1>Code Snippets</h1>
+</div>
+
 <div class="topnav">
     <a href="https://dev.madebydanny.uk/index.html">Home</a>
     <a>|</a>
-    <a href="https://redjacket-web.madebydanny.uk">About</a>
-\
-    <a href="https://redjacket-web.madebydanny.uk">Archives</a>
-    <a class="active" href="https://dev.madebydanny.uk/code-snippets.html"><i class="fa-solid fa-code"></i>Tags</a>
-    <a href="https://dev.madebydanny.uk/css.html">Info</a>
+    <a href="https://redjacket-web.madebydanny.uk">Templates</a>
+    <a class="active" href="https://dev.madebydanny.uk/code-snippets.html"><i class="fa-solid fa-code"></i>Code Snippets</a>
+    <a href="https://dev.madebydanny.uk/css.html">MBD CSS</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -204,11 +206,17 @@ hr.new1 {
         <a onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></a>
         <a onclick="myFunction1()" id="myBtn" title="Dark Mode"><i class="fa-solid fa-circle-half-stroke"></i></a>
         <a href="#">|</a>
-        <a href="https://reddit.com/r/MBD_Team"><i class="fa-brands fa-reddit" style="color: #f9581d;"></i></a>
-        <a href="https://twitch.tv/funtimeswithdanny"><i class="fa-brands fa-twitch" style="color: #9346ff;"></i></a>
-        <a href="https://youtube.com/@MadeByDanny"><i class="fa-brands fa-youtube" style="color: #ff0033;"></i></a>
-        <a href="https://github.com/therealfuntimeswithdanny"><i class="fa-brands fa-github" style="color: #262b2f;"></i></a>
-        <a href="https://instagram.com/funtimeswithdanny"><i class="fa-brands fa-instagram" style="color: #b997ee;"></i></a>
+        <a href="https://github.com/therealfuntimeswithdanny"><i class="fa-brands fa-github"></i></a>
+       <a href="https://github.com/therealfuntimeswithdanny/MBD-DEV"> <div id="repoInfo">Connecting to api.github.com</div>
+    
+        <script>
+            fetch('https://api.github.com/repos/therealfuntimeswithdanny/MBD-DEV')
+                .then(response => response.json())
+                .then(data => {
+                    const lastUpdated = new Date(data.updated_at).toLocaleString();
+                    document.getElementById('repoInfo').innerText = `Last Updated From Github at: ${lastUpdated}`;
+                });
+        </script></a>
       </div>
 </div>
 <div class="sidenav">
@@ -233,23 +241,12 @@ hr.new1 {
   <a href="/code-snippets/search.html">Site Search</a>
   <a href="/code-snippets/dark-mode.html">Dark Mode</a>
   <a href="/code-snippets/top.html">Back to top</a>
+  <a href="/code-snippets/logo.html">Favicon</a>
 </div>
 <div class="floater">
-  <p><a href="https://github.com/therealfuntimeswithdanny/MBD-DEV"> <div id="repoInfo">Connecting to api.github.com</div>
-    
-    <script>
-        fetch('https://api.github.com/repos/therealfuntimeswithdanny/MBD-DEV')
-            .then(response => response.json())
-            .then(data => {
-                const lastUpdated = new Date(data.updated_at).toLocaleString();
-                document.getElementById('repoInfo').innerText = `Last Updated From Github at: ${lastUpdated}`;
-            });
-    </script></a></p>
+<p><a href="/Markdown/Code Snippets.md.html">Haveing Problems | Open in new tap</a></p>
 </div>
-<div class="main">
-  <iframe src="/Markdown/Code Snippets.md.html" style="border:none;" height="3000px" width="100%" title="Iframe Example"></iframe>
-
-</div>
+<iframe src="/Markdown/Code Snippets.md.html" style="border:none;" height="1000px" width="100%" title="Iframe Example"></iframe>
 <div class="floater">
   <p><a href="https://redjacket-web.madebydanny.uk">View Template on RedJacket Web</a> | <a href="https://dev.madebydanny.uk">MBD DEV</a> | <a href="https://github.com/therealfuntimeswithdanny/MBD-DEV">View on GitHub</a> | <a href="https://cloudflare.com">Secured by Cloudflare</a></p></div>
 <script>
