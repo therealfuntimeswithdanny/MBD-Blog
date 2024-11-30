@@ -219,15 +219,19 @@ color: gray}
   updateLatency();
 </script>
 <script>
-  // Function to detect if the user is on a phone
+// Function to detect if the user is on a phone
 function isMobile() {
   return /Mobi|Android/i.test(navigator.userAgent);
 }
 
-// Show pop-up with a link if the user is on a phone
+// Redirect with a link if the user is on a phone
 if (isMobile()) {
-  alert('Welcome mobile user! Visit our site here: https://blog-mobile.madebydanny.uk');
+  alert('Welcome mobile user! You will be redirected to the mobile site shortly...');
+  setTimeout(function() {
+    window.location.href = 'https://blog-mobile.madebydanny.uk';
+  }, 3000); // 3000 milliseconds = 5 seconds
 }
+
 
 </script>
 </body>
