@@ -218,6 +218,18 @@ color: gray}
   // Initial latency update
   updateLatency();
 </script>
+<script>
+  // Function to detect if the user is on a phone
+function isMobile() {
+  return /Mobi|Android/i.test(navigator.userAgent);
+}
+
+// Show pop-up with a link if the user is on a phone
+if (isMobile()) {
+  alert('Welcome mobile user! Visit our site here: https://blog-mobile.madebydanny.uk');
+}
+
+</script>
 </body>
 </html>
 
