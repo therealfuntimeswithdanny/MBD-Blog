@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<html manifest="cache.manifest"
-<script src="https://madebydanny.uk/script/404.js"></script>
-<link rel="stylesheet" href="https://madebydanny.uk/style/404.css">
-<link rel="icon" type="image/x-icon" href="https://mbduk-cdn.madebydanny.uk/a28a3c50-3e92-47f6-adea-b62eccd07ecd.png">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error 404</title>
-</head>
-<body>
-    <h2>MBD CDN</h2>
-    <h1>Error 404</h1>
-    <img src="https://cdn.madebydanny.uk/logos/cdn.png" alt="MBD CDN Error" style="width:350px;height:350px;">
-    <p>Today's Date and Time</p>
-    <p>Oops! The page you're looking for can't be found. <br>GitHUb Pages can't find the page your looking for.</p>
-    <p>MBD CDN Can't find the page requested.</p>
-    <a href="https://cdn.madebydanny.uk">Go to Our Homepage</a>
-    <a href="https://madebydanny.uk/index.html">Go to Homepage</a>
-    Common issues
+    <title>Redirect Page</title>
+    <script>
+        function redirect() {
+            window.location.href = "https://404.madebydanny.uk";
+        }
 
-    <p><b>Cache</b></p>
-    <p>This site my be cached to your local disk clear your cache to update from GitHub Pages</p>
-    <br>
-    <p><b>Spelling</b><p>
-    <p>Check for spelling errors make sure the page has the .html file format</p>
-    <p><b>Still cant find the Page</b><p>
-    <p>Still can't find the page your looking for try our <a href="/pages/search.html">Site Search</a> or our <a href="/pages/site-map.html">Site Map</a></p>
-</body>
+        setTimeout(redirect, 2000); // Redirect after 2 seconds
+    </script>
+</head>
+<style>
+    a {
+        color: red;
+    }
+    a:hover {
+        color: black;
+    }
+    .floater {
+        background-color:#dddd;
+        color:black;
+        text-align: center;
+        padding: 5px
+    }
+</style>
+<body>
+    <h1><a href="https://cloudflare.com">Cloudflare</a> will redirect you to <a href="https://404.madebydanny.uk">404.madebydanny.uk</a> shortly...</h1>
+    <div class="floater">
+        <p>Performance & Security by <a href="https://cloudflare.com">Cloudflare</a> | Deployed on <a href="https://www.cloudflare.com/network/">Cloudflare Global Network</a> | <a href="https://team.madebydanny.uk">MBD Team</a></p>
+    </div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8eaf77a2ec0ae60c',t:'MTczMzAxODI1NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
